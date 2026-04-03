@@ -1,0 +1,38 @@
+<svg width="680" height="680" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(340,340)">
+
+    <g fill="#ffffff">
+      <g><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(30)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(60)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(90)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(120)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(150)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(180)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(210)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(240)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(270)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(300)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+      <g transform="rotate(330)"><rect x="-18" y="-230" width="36" height="60" rx="4"/></g>
+    </g>
+
+    <circle r="200" fill="#ffffff"/>
+    <circle r="195" fill="none" stroke="#cccccc" stroke-width="2"/>
+    <circle r="160" fill="#e0e0e0"/>
+
+    <g fill="#ffffff">
+      <g><rect x="-12" y="-155" width="24" height="100" rx="6"/></g>
+      <g transform="rotate(60)"><rect x="-12" y="-155" width="24" height="100" rx="6"/></g>
+      <g transform="rotate(120)"><rect x="-12" y="-155" width="24" height="100" rx="6"/></g>
+      <g transform="rotate(180)"><rect x="-12" y="-155" width="24" height="100" rx="6"/></g>
+      <g transform="rotate(240)"><rect x="-12" y="-155" width="24" height="100" rx="6"/></g>
+      <g transform="rotate(300)"><rect x="-12" y="-155" width="24" height="100" rx="6"/></g>
+    </g>
+
+    <circle r="65" fill="#f0f0f0"/>
+    <circle r="60" fill="none" stroke="#cccccc" stroke-width="1.5"/>
+    <circle r="30" fill="#d0d0d0"/>
+    <circle r="28" fill="none" stroke="#bbbbbb" stroke-width="1.5"/>
+
+  </g>
+</svg>

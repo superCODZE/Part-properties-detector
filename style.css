@@ -1,0 +1,42 @@
+body{
+    min-height: 100vh;
+    background: linear-gradient(120deg, #000000, #1c1919);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    animation:rotate 25s linear infinite;
+       
+    
+}
+
+.Titel{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+    
+}
+
+
+
+@keyframes rotate{
+        from {
+            transform: rotate(0deg)
+        }
+        to {
+            transform: rotate(360deg)
+        }
+    }
