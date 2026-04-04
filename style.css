@@ -3,14 +3,26 @@ body{
     background: linear-gradient(120deg, #000000, #1c1919);
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
-    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
 }
+   
 
+Pr{
+    background: linear-gradient(135deg, #4285F4, #8B5CF6, #EC4899);
+    background-clip: text;
+    color: transparent;
+}
 
 h1{
     color: #ffffff;
     font-size: 50px;
 }
+
+
+
 
 #logo{
     width: 100px;
@@ -20,17 +32,30 @@ h1{
     
 }
 
+
+.text{
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+
+
+
+
 .Titel{
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-top: 30px;
-    margin-left: 20px;
     
     
 }
 
 
+.container1 {
+   margin-top: 5px;
+   margin-left: 30px;
+   filter: drop-shadow(3px 3px 5px #444444);
+}
 
 @keyframes rotate{
         from {
