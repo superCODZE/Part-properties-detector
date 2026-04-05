@@ -21,11 +21,6 @@ h1{
     font-size: 50px;
 }
 
-#blur{
-
-    filter: blur(0.5px);
-}
-
 
 #photo{
    
@@ -37,11 +32,12 @@ h1{
 .Upload-image{
     
     padding: 170px;
-    border: 2px dashed rgb(255, 255, 255);
+    border: 2px dashed rgb(0, 44, 56);
     color: #ffffff;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
+    
     
 }
 
@@ -85,6 +81,7 @@ h1{
     margin-top: 250px;
     display: flex;
     justify-content: center;
+    
     gap: 10px;
 }
 
@@ -96,3 +93,6 @@ h1{
             transform: rotate(360deg)
         }
     }
+
+
+    
