@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background: linear-gradient(120deg, #000000, #1c1919);
+    background: linear-gradient(120deg, #000000, #16002a);
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -21,10 +21,32 @@ h1{
     font-size: 50px;
 }
 
+#blur{
+
+    filter: blur(0.5px);
+}
 
 
+#photo{
+   
+   display: none;
+   
+}
+
+
+.Upload-image{
+    
+    padding: 170px;
+    border: 2px dashed rgb(255, 255, 255);
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
 
 #logo{
+
     width: 100px;
     height: 100px;
     animation:rotate 25s linear infinite;
@@ -36,6 +58,7 @@ h1{
 .text{
     color: #ffffff;
     margin-left: 50px;
+    filter: drop-shadow(3px 3px 5px #444444);
 }
 
 
@@ -46,6 +69,7 @@ h1{
     display: flex;
     align-items: center;
     gap: 15px;
+    filter: drop-shadow(3px 3px 5px #444444);
     
     
 }
@@ -54,7 +78,14 @@ h1{
 .container1 {
    margin-top: 5px;
    margin-left: 30px;
-   filter: drop-shadow(3px 3px 5px #444444);
+   
+}
+
+.container2{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 @keyframes rotate{
