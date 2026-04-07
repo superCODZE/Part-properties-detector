@@ -3,7 +3,7 @@
     @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
     .float { animation: float 2.5s ease-in-out infinite; }
   </style>
-  <g class="float" fill="none" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+  <g class="float" fill="none" stroke="#999999" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
     <path d="M36 74 Q24 74 24 62 Q24 52 34 50 Q36 38 48 36 Q54 34 60 38 Q66 34 72 36 Q84 38 86 50 Q96 52 96 62 Q96 74 84 74 Z"/>
     <line x1="60" y1="98" x2="60" y2="74"/>
     <polyline points="48,84 60,72 72,84"/>

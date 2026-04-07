@@ -78,7 +78,7 @@ label{
     display: flex;
     align-items: center;
     gap: 10px;
-    filter: drop-shadow(3px 3px 5px #444444);
+    filter: drop-shadow(3px 3px 5px #5d5c5c);
     
     
 }
