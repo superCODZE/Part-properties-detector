@@ -25,12 +25,24 @@ h1{
 label{
     color: #ffffff;
     font-size: 20px;
-    background: linear-gradient(135deg, #4285F4, #8B5CF6, #EC4899);
-    background-clip: text;
-    color: transparent;
+    background-color: #4285F4;
+    padding: 10px 10px;
+    border-radius: 5px;
     cursor: pointer;
-    filter: drop-shadow(3px 3px 5px #444444);
+    transition:  0.5s;
+   
+    
+    
 }
+
+label:hover{
+    background-color: #8B5CF6;
+    box-shadow: 0px 0px 10px #8B5CF6;
+
+    
+}
+
+
 
 #image{
     display: none;
@@ -47,8 +59,10 @@ label{
 }
 
 
-
-
+#icon{
+    width: 200px;
+    height: 200px;
+}
 
 
 
@@ -63,6 +77,19 @@ label{
 }
 
 
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    border: dashed 2px #ffffff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+
 .text{
     
     color: #ffffff;
@@ -72,7 +99,13 @@ label{
 
 
 
-
+.upload-part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
 
 .Titel{
     display: flex;
@@ -92,7 +125,7 @@ label{
 }
 
 .container2{
-   margin-top: 70px;
+   margin-top: 25px;
    display: flex;
    flex-direction: column;
    align-items: center;
