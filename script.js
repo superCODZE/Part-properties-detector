@@ -15,7 +15,7 @@ document.getElementById("image").addEventListener("input", async function (event
     imageInput = event.target.files[0];
     const url = URL.createObjectURL(imageInput);
     document.getElementById("icon").src = url;
-    document.getElementById("icon").style.cssText = 'width: 95%; height: 95%;';
+    document.getElementById("icon").style.cssText = 'width: 95%; height: 95%; border-radius: 10px;';
 
     // On utilise 'await' pour attendre que la machine finisse son travail
     const base64 = await toBase64(imageInput);

@@ -19,6 +19,9 @@ Pr{
 h1{
     color: #ffffff;
     font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+    
 }
 
   
@@ -102,7 +105,7 @@ label:hover{
     
     color: #ffffff;
     margin-left: 50px;
-    filter: drop-shadow(3px 3px 5px #444444);
+    
 }
 
 
@@ -119,7 +122,7 @@ label:hover{
     display: flex;
     align-items: center;
     gap: 10px;
-    filter: drop-shadow(3px 3px 5px #5d5c5c);
+    
     
     
 }
