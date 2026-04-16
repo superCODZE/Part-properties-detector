@@ -1,4 +1,6 @@
 import { GoogleGenAI } from "https://esm.run/@google/genai";
+import { API_KEY } from "./config.js";
+
 
 let imageInput = null;
 // On crée la machine (fonction) pour transformer l'image en texte (Base64)
@@ -13,15 +15,15 @@ document.getElementById("icon").src="upload-icon.svg";
 
 // On ajoute 'async' ici car la transformation prend un petit peu de temps
 document.getElementById("image").addEventListener("input", async function (event) {
+    imageInput = event.target.files[0];
     const base64 = await toBase64(imageInput);
     
-    imageInput = event.target.files[0];
     const url = URL.createObjectURL(imageInput);
     document.getElementById("icon").src = url;
     document.getElementById("icon").style.cssText = 'width: 95%; height: 95%; border-radius: 10px;';
 
     // On utilise 'await' pour attendre que la machine finisse son travail
-    const ai = new GoogleGenAI({ apiKey: "" });
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     
     const contents = [
   {
@@ -30,7 +32,7 @@ document.getElementById("image").addEventListener("input", async function (event
       data: base64.split(",")[1],
     },
   },
-  "Caption this image.",
+  "is this a part of car",
 ];
 
 const response = await ai.models.generateContent({
