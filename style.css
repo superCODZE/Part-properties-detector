@@ -16,7 +16,7 @@ Pr{
     color: transparent;
 }
 
-h1{
+h1 {
     color: #ffffff;
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
@@ -38,12 +38,18 @@ label{
 
 
 h5{
-    color: #be0000;
+    color: #ffffff;
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 5px;
-    display: none;
     
+    
+}
+
+h3{
+    color: #ffffff;
+    font-size: 20px;
+   
 }
 
 
