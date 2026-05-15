@@ -64,6 +64,7 @@ document.getElementById("result-text").innerHTML = "RESULT:";
     console.error(apiError);
     
     document.getElementById("result").innerHTML = "The AI server is currently overloaded. Please try again later.";
+    document.getElementById("result").style.color = '#be0000';
     
     
   }
