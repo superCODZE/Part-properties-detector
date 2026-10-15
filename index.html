@@ -15,7 +15,7 @@
     <div class="container1">
         
         <div class="Titel">
-            <img src="Logo.svg" id="logo" alt="Logo" >
+            <img src="./Logo.svg" id="logo" alt="Logo">
             <h1>Part Properties Detector</h1>
         </div>
         <div class="text">
@@ -32,13 +32,13 @@
          
           
              <div class="icon-container">
-                 <img alt="icon " id="icon">
+                 <img src="upload-icon.svg" alt="Upload an image" id="icon">
                  
              </div>
                 
            
             
-             <input type="file" id="image"accept="image/*">
+             <input type="file" id="image" accept="image/*">
              <label for="image">Upload your image</label>
            </div>
 
@@ -47,7 +47,25 @@
         
             
     
-    <script type="module" src="script.js"></script>
+    <script>
+        document.getElementById("image").addEventListener("change", event => {
+            const file = event.target.files[0];
+            if (!file) {
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = () => {
+                const icon = document.getElementById("icon");
+                icon.src = reader.result;
+                icon.style.width = "95%";
+                icon.style.height = "95%";
+                icon.style.borderRadius = "10px";
+            };
+            reader.readAsDataURL(file);
+        });
+    </script>
+    <script type="module" src="./script.js"></script>
 
 
 
